@@ -15,12 +15,27 @@ Inside your API Product make sure to add the proxy for which you are trying to s
 
 - - - -
 ## Usage
- You have two ways to utilize this sharedflow after you have deployed it to your environment
- - Using flowhook for your environment
- - Using a flow callout from your proxy
+- Start with making an zip of folder ___sharedflowbundle___ inside ___verify-path-method-v1___ folder and then uploading it inside your Shared Flows of Apigee Edge, this will create a Shared Flow with name _verify-path-method-v1_
+
+- You have two ways to utilize this sharedflow after you have deployed it to your environment
+  - Using flowhook for your environment
+  - Using a flow callout from your proxy at the start of your proxy flow
+
+- This shared flow uses Verify API Key policy to capture custom attibutes of API Product.
+
+
 
 - - - -
 ## Customization
+## *IMPORTANT NOTE*
+ - #### If you have a Verfiy API Key in your proxy than go to shared flow and remove the ___Verfiy API Key___ from shared flow, also this VAK will expect you apps to provide ___apikey___ inside header for API call
+
+   `<APIKey ref="request.header.apikey"/>`
+
+   You can customize this also if you want your apps to provide ___apikey___ in other location like query parameter.
+
+   ![Verfiy API Key](screenshots/ss_vak_sf.png)
+
 - Currently shared flow throws a error if the path or the method is not allowed to be called for the product, The error looks like this.
 
   `{
