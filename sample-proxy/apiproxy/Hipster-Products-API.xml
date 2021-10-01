@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="Hipster-Products-API">
+    <Basepaths>/vi/hipproduct</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1632974555550</CreatedAt>
+    <CreatedBy>defaultUser</CreatedBy>
+    <Description>Products API for Hipster Application</Description>
+    <DisplayName>Hipster-Products-API</DisplayName>
+    <LastModifiedAt>1633053467233</LastModifiedAt>
+    <LastModifiedBy>defaultUser</LastModifiedBy>
+    <ManifestVersion>SHA-512:ec76d51432160bf998d0860fb43eddcfced94fe1f5ae669db52536d8554427e6b7c4927c959f96e5e4c60d0987b615c4ae514091abb1aeaeacf29a49943e199f:ap-northeast-1</ManifestVersion>
+    <Policies>
+        <Policy>Flow-Callout-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>openapi://association.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

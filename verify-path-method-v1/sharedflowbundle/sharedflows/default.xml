@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlow name="default">
+    <Step>
+        <Name>VAK-VerifyKey</Name>
+    </Step>
+    <Step>
+        <Name>JS-PathMethodCheck</Name>
+    </Step>
+    <Step>
+        <Condition>(custom.method.allowed = "false") or (custom.path.allowed = "false")</Condition>
+        <Name>RF-PathMethodCheckFail</Name>
+    </Step>
+</SharedFlow>

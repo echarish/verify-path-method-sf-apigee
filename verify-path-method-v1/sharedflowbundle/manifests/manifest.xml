@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-PathMethodCheckFailMessage" version="SHA-512:86d05aab236b600710bde7d2bc762c99f56a225644d198a46443b847b59f726d2426c7ccb6291a264d4040791d26c09b8ce67625bb08ff99ab3182d84c45a0f3"/>
+        <VersionInfo resourceName="JS-PathMethodCheck" version="SHA-512:e380fa33ce69af8ef70760d473e3ddf3d9af65665d29503a5529f6b5316c9a4cd1456fa44c2ff54302e1c0e486b15fc6e9faf88f7081449bbf8c0e7d760471e2"/>
+        <VersionInfo resourceName="RF-PathMethodCheckFail" version="SHA-512:acee24397705df4ebf945c60bfe211b382be725c3d35201ddcbf47d721c3f20fc6dba0f4258aa5640604c4e4df9c8728c87cb1f4ab2c7d3e88ec8809f06d7ad3"/>
+        <VersionInfo resourceName="VAK-VerifyKey" version="SHA-512:6c0a69bfacbb84a390d5a93bb35509c104e2d5a67a89c631488ffad519697f8f836c72bc4857902d6cdba74bd911ab8e3b16375d639e113bcfc1531c62cea3d7"/>
+    </Policies>
+    <ProxyEndpoints/>
+    <Resources>
+        <VersionInfo resourceName="jsc://JS-PathMethodCheck.js" version="SHA-512:ff0a57f533d7b1a20b17d8034d362bf9518062de76d02ece3cc5c95e6e571e37a45cf46b12f05c9b97bd3d756f3924bc126d61ee5ad15c8e5c704dd6f3e535b3"/>
+    </Resources>
+    <SharedFlows>
+        <VersionInfo resourceName="default" version="SHA-512:47ededb18570c64d0c663faa693b43969d50122e9c2d6e17dd245bb76bc3c192e0a315f063a68e20d651392e48c31216b5c2f4472391b5057799582da7463205"/>
+    </SharedFlows>
+    <TargetEndpoints/>
+</Manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Flow-Callout-1" version="SHA-512:5870280c574a2d2905e725013b924f9a753a4ff650bc73662bb596be93abe9f09c6073ab58f8965a0d4985802e284ec2f20f40022439ac6ef171797d590fa5dd"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:14a7b4e57825b7a87b968c4a30142391bd30ec4851d87194d3f8ea1e4979edc5712f6bea5cf8dbecf3aed9a0ab22f24f3c0e266ae2eb7a4bdb7e01e5080cfdca"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="openapi://association.json" version="SHA-512:8f25ef1d0a0d617e9f9bce142dd2cc200c6e64450872effa689eb8f84adff03a5bf49842f032e0f9cda4502104ea129fda55d2781d22ce1ea96ab973a77dd5ac"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:745b49e353c5b7a05b434072a74fdc2579a14149039ad5fa80af01193b4504a8976d43868b52771d052797cb8970d2518e9d18b8abcf81637c1e31ac26399455"/>
+    </TargetEndpoints>
+</Manifest>
