@@ -43,6 +43,14 @@ Inside your API Product make sure to add the proxy for which you are trying to s
 ## Sample
 In source code I have published a sample proxy that you can deploy to test this shared flow
 
+- Allowed path and method call sample
+![Allowed Path](screenshots/ss_sample_allowed1.png)
+![Allowed Path](screenshots/ss_sample_allowed2.png)
+
+- Not Allowed path and method call sample
+![Allowed Path](screenshots/ss_sample_not_allowed1.png)
+![Allowed Path](screenshots/ss_sample_not_allowed2.png)
+
 - - - -
 
 ## License
